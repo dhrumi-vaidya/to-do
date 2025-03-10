@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     li.setAttribute("data-id", task.id);
     if (task.completed) li.classList.add("completed");
     li.innerHTML = `
-    <span>${task.date}</span>
     <span>${task.text}</span>
     <button>delete</button>
     `;
